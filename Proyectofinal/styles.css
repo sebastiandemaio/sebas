@@ -1,0 +1,93 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.user-img {
+    width: 50px;
+}
+
+.cont-section-bio {
+background-image: url(https://www.tworeality.com/wp-content/uploads/2023/04/las-preguntas-mas-frecuentes-sobre-la-realidad-virtual-y-la-inteligencia-artificial.jpg);
+
+min-height: 80vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(167, 43, 123);
+
+
+}
+
+.cont-section-contacto{
+    margin-top: 20px;
+    padding: 30px;
+    background-color: antiquewhite;
+
+}
+
+footer{  
+     display: block;
+    }
+ 
+     .bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+     .text-muted { 
+    --bs-text-opacity: 1;
+    color: var(--bs-secondary-color)!important;}
+
+    .text-center {
+        text-align: center!important;}
+
+
+.mt-5 {
+        margin-top: 3rem!important;
+    }
+
+.mt-3 {
+        margin-top: 1rem!important;
+    }
+
+.row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+
+.mb-4 {
+        margin-bottom: 1.5rem!important;
+    }
+
+.mx-auto {
+        margin-right: auto!important;
+        margin-left: auto!important;
+    }
+
+.row>* {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+
+.text-uppercase {
+        text-transform: uppercase!important;
+    }
+
+
+
+
+
+
+
+        
+   
